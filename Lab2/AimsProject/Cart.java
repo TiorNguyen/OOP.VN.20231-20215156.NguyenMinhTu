@@ -29,4 +29,17 @@ public class Cart {
         }
         System.out.println("The disc was not found in the cart.");
     }
+    public float totalCost() {
+        float total = 0;
+        for (int i = 0; i < qtyOrdered; i++) {
+
+            if (itemOrdered[i] != null) {
+                System.out.println(i+1+" "+ this.itemOrdered[i].getTitle()+" "+this.itemOrdered[i].getCost() );
+                total += itemOrdered[i].getCost();
+            }
+        }
+        System.out.println("total cost: "+ total );
+
+        return total;
+    }
 }
