@@ -12,6 +12,10 @@ public class Aims {
         anOrder.addDigitalVideoDisc(dvd2);
 		anOrder.addDigitalVideoDisc(dvd3);
 		anOrder.totalCost();
+        anOrder.removeDigitalVideoDisc(dvd2);
+            
+		anOrder.removeDigitalVideoDisc(dvd3);
+        anOrder.totalCost();
 			
     }
 }
