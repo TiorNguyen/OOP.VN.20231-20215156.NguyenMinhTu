@@ -17,10 +17,14 @@ public class Store {
     public ArrayList<Media> getItemsInStore() {
         return itemsInStore;
     }
+<<<<<<< HEAD
 //    public DigitalVideoDisc[] getItemsInStore() {
 //
 //        return itemsInStore;
 //    }
+=======
+
+>>>>>>> 5e289b7e0843d8b9d95784ac66d4a7b51a57a139
 
 
     public void setItemsInStore(ArrayList<Media> itemsInStore) {

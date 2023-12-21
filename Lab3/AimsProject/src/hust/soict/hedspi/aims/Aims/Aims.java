@@ -8,6 +8,7 @@ import hust.soict.hedspi.aims.store.Store;
 
 import java.util.Scanner;
 
+<<<<<<< HEAD
 //public class Aims {
 //
 //        public static void main(String[] args) {
@@ -44,6 +45,8 @@ import java.util.Scanner;
 //}
 
 ///////////////////////////////////////
+=======
+>>>>>>> 5e289b7e0843d8b9d95784ac66d4a7b51a57a139
 public class Aims {
     public static void main(String[] args) {
         Store store = new Store();
@@ -152,7 +155,11 @@ public class Aims {
             System.out.println(media);
             mediaDetailsMenu();
             int choice = scanner.nextInt();
+<<<<<<< HEAD
             scanner.nextLine(); // Consume the newline character
+=======
+            scanner.nextLine(); 
+>>>>>>> 5e289b7e0843d8b9d95784ac66d4a7b51a57a139
 
             switch (choice) {
                 case 1:
@@ -218,8 +225,12 @@ public class Aims {
     }
 
     public static void updateStore(Store store, Scanner scanner) {
+<<<<<<< HEAD
         // Implement the logic to add or remove a media from the store
         // You can use similar patterns as in the viewStore method
+=======
+       
+>>>>>>> 5e289b7e0843d8b9d95784ac66d4a7b51a57a139
     }
 
     public static void seeCurrentCart(Cart cart, Scanner scanner) {
@@ -227,7 +238,11 @@ public class Aims {
         int choice;
         do {
             choice = scanner.nextInt();
+<<<<<<< HEAD
             scanner.nextLine(); // Consume the newline character
+=======
+            scanner.nextLine();
+>>>>>>> 5e289b7e0843d8b9d95784ac66d4a7b51a57a139
 
             switch (choice) {
                 case 1:

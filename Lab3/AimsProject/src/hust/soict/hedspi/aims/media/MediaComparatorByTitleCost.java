@@ -9,7 +9,11 @@ public class MediaComparatorByTitleCost implements Comparator<Media> {
         if (titleComparison != 0) {
             return titleComparison;
         }
+<<<<<<< HEAD
         // Trường hợp tiêu đề giống nhau, so sánh theo chi phí
+=======
+        
+>>>>>>> 5e289b7e0843d8b9d95784ac66d4a7b51a57a139
         return Float.compare(media2.getCost(), media1.getCost());
     }
 }

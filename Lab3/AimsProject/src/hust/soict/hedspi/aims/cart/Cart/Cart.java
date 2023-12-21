@@ -2,16 +2,25 @@ package hust.soict.hedspi.aims.cart.Cart;
 
 import hust.soict.hedspi.aims.media.DigitalVideoDisc;
 import hust.soict.hedspi.aims.media.Media;
+<<<<<<< HEAD
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+=======
+>>>>>>> 5e289b7e0843d8b9d95784ac66d4a7b51a57a139
 
 import java.util.ArrayList;
 
 public class Cart {
     public static final int MAX_NUMBERS_ORDERED = 20;
+<<<<<<< HEAD
 //    private ArrayList<Media> itemsOrdered = new ArrayList<Media>();
 
     private ObservableList<Media> itemsOrdered = FXCollections.observableArrayList();
+=======
+    private ArrayList<Media> itemsOrdered = new ArrayList<Media>();
+
+
+>>>>>>> 5e289b7e0843d8b9d95784ac66d4a7b51a57a139
 
     public Cart() {
 
@@ -72,7 +81,11 @@ public class Cart {
         addMedia(dvd1);
         addMedia(dvd2);
     }
+<<<<<<< HEAD
     public void print(){
+=======
+    public void printList(){
+>>>>>>> 5e289b7e0843d8b9d95784ac66d4a7b51a57a139
         int i=1;
         float total=0;
         for (Media disc : this.itemsOrdered
@@ -120,10 +133,13 @@ public class Cart {
         itemsOrdered.clear();
         System.out.println("The cart has been cleared.");
     }
+<<<<<<< HEAD
 
     public ObservableList<Media> getItemsOrdered() {
         return itemsOrdered;
     }
+=======
+>>>>>>> 5e289b7e0843d8b9d95784ac66d4a7b51a57a139
 //    public void sapXepItemOrdered(){
 //        int f=-1;
 //        for(int i=0;i<qtyOrdered;i++){

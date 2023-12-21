@@ -18,7 +18,11 @@ public abstract class Media {
 
     public Media() {
     }
+<<<<<<< HEAD
 // Phương thức accessor cho các trường
+=======
+
+>>>>>>> 5e289b7e0843d8b9d95784ac66d4a7b51a57a139
 
     public int getId() {
         return id;
@@ -51,24 +55,43 @@ public abstract class Media {
     public void setCost(float cost) {
         this.cost = cost;
     }
+<<<<<<< HEAD
 // Các phương thức khác của lớp Media (nếu cần)
 
     @Override
     public boolean equals(Object obj) {
         // Check if the reference is the same
+=======
+
+
+    @Override
+    public boolean equals(Object obj) {
+       
+>>>>>>> 5e289b7e0843d8b9d95784ac66d4a7b51a57a139
         if (this == obj) {
             return true;
         }
 
+<<<<<<< HEAD
         // Check if the passed object is null or of a different class
+=======
+        
+>>>>>>> 5e289b7e0843d8b9d95784ac66d4a7b51a57a139
         if (obj == null || getClass() != obj.getClass()) {
             return false;
         }
 
+<<<<<<< HEAD
         // Cast the object to Media
         Media otherMedia = (Media) obj;
 
         // Check if titles are equal
+=======
+        
+        Media otherMedia = (Media) obj;
+
+        
+>>>>>>> 5e289b7e0843d8b9d95784ac66d4a7b51a57a139
         return title.equals(otherMedia.title);
     }
 
